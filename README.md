@@ -19,6 +19,6 @@ blox build
 
 ### Referential Integrity
 
-CueBlox discoverys any field that ends with `_id` and can validate that the IDs referenced exist on the DataSet. In this example, [albums](./schemata/music.cue) must provide an `artist_id`, which must exist as an ID(slug) within the [artists](./data/artists/) directory.
+CueBlox discovers any field that ends with `_id` and can validate that the IDs referenced exist on the DataSet. In this example, [albums](./schemata/music.cue) must provide an `artist_id`, which must exist as an ID(slug) within the [artists](./data/artists/) directory.
 
 You can add `--referential-integrity` (or `-i`) to your `blox build`  command to enforce this.
